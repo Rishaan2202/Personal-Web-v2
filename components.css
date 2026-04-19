@@ -1,0 +1,45 @@
+:root{
+    --smoke: #e0e6ed;
+    --blue: #338eda;
+    --cyan: #5bc0de;
+    --green: #33d6a6;
+    --yellow: #f1c40f;
+    --orange: #ff8c37;
+    --red: #ec3750;
+    --purple: #a633d6;
+    --muted: #8492a6;
+    --slate: #3c4858;
+    --steel: #273444;
+    --black: #1f2d3d;
+    --darkless: #252429;
+    --dark: #17171d;
+    --darker: #121217;
+    --darkest: #000000;
+    --lightest: #ffffff;
+}
+
+
+
+#thunder{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    width: 180px;
+    height: 424px;
+    z-index: 1;
+}
+
+#atom{
+    position: absolute;
+    top: -40px;
+    left: 830px;
+    width: 200px;
+    height: 400px;
+    z-index: 2;
+}
+
+#arrow{
+    position: absolute;
+    top: 50px;
+    left: 850px;
+}

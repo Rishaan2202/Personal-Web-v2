@@ -38,23 +38,64 @@ p{
     font-weight: 600;
 }
 
+a{
+    text-decoration: none;
+    color: var(--steel);
+    font-weight: 600;
+}
+
 #name{
     font-weight: 700;
     position: absolute;
-    top: 30px;
+    top: 170px;
     left: 20px;
     background: linear-gradient(90deg, var(--blue), var(--cyan));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    cursor: default;
 }
 
 #description{
     position: relative;
     font-style: bold;
-    top: 220px;
+    top: 360px;
     left: 30px;
-    width: 700px;
+    width: 750px;
     color: var(--green);
+    cursor: default;
 }
+
+#navbar{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-family: "Public Sans", "Sans Serif";
+    font-size: 1.8em;
+    background-color: var(--red);
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+#about{
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    width: 750px;
+    height: 400px;
+}
+
+#aboutHeading{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+
+
