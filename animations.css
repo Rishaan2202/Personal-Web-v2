@@ -15,3 +15,27 @@
 #atom{
     animation: levitate 2s ease-in-out infinite;
 }
+
+#name:hover{
+    scale: 1.1;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+#navbar a:hover{
+    color: var(--slate);
+    transition: all 0.3s ease;
+}   
+
+#logo:hover{
+    scale: 1.1;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+.aboutCard:hover{
+    scale: 1.05;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+

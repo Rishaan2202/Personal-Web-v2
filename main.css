@@ -95,7 +95,39 @@ a{
     left: 0px;
     font-size: 3em;
     font-weight: 100;
+    background: linear-gradient(90deg, var(--yellow), var(--red));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
+#aboutCards{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
 
+.aboutCard{
+    background: linear-gradient(90deg, var(--green), var(--purple));
+    padding: 20px;
+    border-radius: 20px;
+    color: var(--lightest);
+    font-size: 1.5em;
+    width: 1150px;
+}
 
+.aboutCard h3{
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.aboutCard p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
