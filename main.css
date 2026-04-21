@@ -28,6 +28,7 @@
 body{
     background-color: var(--smoke);
     font-family: "Public Sans", "Sans Serif";
+    cursor: url(./cursor.svg), auto;
 }
 
 h1{
@@ -67,7 +68,7 @@ a{
     top: 360px;
     left: 30px;
     width: 750px;
-    color: var(--green);
+    color: var(--slate);
     cursor: default;
 }
 
@@ -122,21 +123,22 @@ a{
 }
 
 .aboutCard{
-    background: linear-gradient(90deg, var(--green), var(--purple));
+    background-color: var(--blue);
     padding: 20px;
     border-radius: 20px;
-    color: var(--lightest);
     font-size: 1.5em;
     width: 1150px;
 }
 
 .aboutCard h3{
+    color: var(--slate);
     font-size: 2em;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .aboutCard p{
+    color: var(--smoke);
     font-size: 1.2em;
     font-weight: 400;
 }
@@ -162,10 +164,22 @@ a{
 .projectBranchCard{
     width: 1150px;
     height: fit-content;
-    background-color: var(--muted);
+    background-color: var(--yellow);
     border-radius: 20px;
-    color: var(--lightest);
+    color: var(--slate);
     padding: 20px;
+}
+
+#hardwareCard{
+    background-color: var(--green);
+}
+
+#softwareCard{
+    background-color: var(--cyan);
+}
+
+#hardwareProject h4{
+    color: var(--darkest);
 }
 
 .projectGrid{
@@ -187,14 +201,32 @@ a{
     color: transparent;
 }
 
-.projectCard{
-    background: linear-gradient(90deg, var(--blue), var(--purple));
+.hardwareProject{
+    background: var(--green);
+}
+
+.hardwareProject{
+    background-color: var(--muted);
     border-radius: 20px;
-    color: var(--lightest);
+    color: var(--smoke);
     padding: 20px;
 }
 
-.projectCard h4{
+.cadProject{
+    background-color: var(--blue);
+    border-radius: 20px;
+    color: var(--smoke);
+    padding: 20px;
+}
+
+.softwareProject{
+    background-color: var(--orange);
+    border-radius: 20px;
+    color: var(--steel);
+    padding: 20px;
+}
+
+.projectGrid h4{
     font-size: 1.9em;
     font-weight: 800;
     margin-bottom: 10px;
