@@ -27,12 +27,6 @@
     transition: all 0.3s ease;
 }   
 
-#logo:hover{
-    scale: 1.1;
-    cursor: default;
-    transition: all 0.3s ease;
-}
-
 .aboutCard:hover{
     scale: 1.05;
     cursor: default;
