@@ -40,18 +40,15 @@
 .hardwareProject:hover{
     scale: 1.05;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
 .cadProject:hover{
     scale: 1.05;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
 .softwareProject:hover{
     scale: 1.05;
     transition: all 0.3s ease;
-    cursor: pointer;
 }
 
