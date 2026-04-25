@@ -54,8 +54,11 @@
     transition: all 0.05s ease;
 }
 
-#contactbg{
+.contactimg{
     position: absolute;
-    top: 3780px;
-    left: -70px;
+    top: 5000px;
+    width: 100px;
+    height: auto;
+    z-index: 3;
+    transition: all 0.3s ease;
 }

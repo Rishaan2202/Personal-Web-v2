@@ -30,7 +30,7 @@ body{
     background: linear-gradient(180deg, var(--smoke), var(--darkless));
     font-family: "Public Sans", "Sans Serif";   
     background-repeat: no-repeat;
-    min-height: 750vh;
+    min-height: 850vh;
     overflow-x: hidden;
 }
 
@@ -256,7 +256,7 @@ a{
 
 #contactHeading{
 position: absolute;
-    top: 3770px;
+    top: 4770px;
     left: 30px;
     font-size: 3em;
     font-weight: 100;
@@ -267,9 +267,15 @@ position: absolute;
     color: transparent;
 }
 
+#contactbg{
+    position: absolute;
+    top: 4780px;
+    left: -70px;
+}
+
 #github{
     position: absolute;
-    top: 3950px;
+    top: 4950px;
     left: 30px;
     font-size: 2em;
     color: var(--slate);
