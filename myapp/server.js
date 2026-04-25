@@ -1,15 +1,16 @@
 const express = require('express')
 const app = express()
 const port = 3000
+const fs = require('fs');
 
 app.get('/', (req, res) => {
   res.send('Hello World!');
   console.log('Received a GET request at /');
 });
 
-app.post('/data', (req, res) => {
+app.post('/', (req, res) => {
   res.send('Data received!');
-  console.log('Received a POST request at /data');
+  console.log('Received a POST request at /');
 
   const processData = async function processData() {
     await console.log('Processing data...');

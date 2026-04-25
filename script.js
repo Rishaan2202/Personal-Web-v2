@@ -1,7 +1,9 @@
-function mouseMovement(event) {
+function mouseMovement(e) {
     const mousemove = document.getElementById("mousemove");
-    const x = event.clientX;
-    const y = event.clientY;
-    mousemove.style.left = x + "px";
-    mousemove.style.top = y + "px";
+    const x = e.clientX;
+    const y = e.clientY;
+    mousemove.style.left = x-5 + "px";
+    mousemove.style.top = y-5 + "px";
 }
+
+document.addEventListener("mousemove", mouseMovement);
