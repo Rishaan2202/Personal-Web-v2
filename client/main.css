@@ -32,6 +32,8 @@ body{
     background-repeat: no-repeat;
     min-height: 850vh;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 h1{
@@ -271,4 +273,9 @@ position: absolute;
     position: absolute;
     top: 4780px;
     left: -70px;
+}
+
+.webElement{
+    display: flex;
+    flex-direction: column;
 }

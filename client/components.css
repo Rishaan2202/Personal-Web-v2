@@ -66,6 +66,7 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(-7deg);
 }
 
 #githubContact{
@@ -80,6 +81,7 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(5deg);
 }
 
 #instagramContact{
@@ -94,6 +96,7 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(-3deg);
 }
 
 #snapchatContact{
@@ -108,6 +111,7 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(7deg);
 }
 
 #youtubeContact{
@@ -122,6 +126,7 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(3deg);
 }
 
 #linkedinContact{
@@ -136,6 +141,22 @@
     background: var(--muted);
     border-radius: 15px;
     padding: 3px 7px;
+    transform: rotate(-5deg);
+}
+
+#facebookContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5050px;
+    left: 830px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+    transform: rotate(-5deg);
 }
 
 .contactimg{
