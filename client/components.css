@@ -1,0 +1,144 @@
+:root{
+    --smoke: #e0e6ed;
+    --blue: #338eda;
+    --cyan: #5bc0de;
+    --green: #33d6a6;
+    --yellow: #f1c40f;
+    --orange: #ff8c37;
+    --red: #ec3750;
+    --purple: #a633d6;
+    --muted: #8492a6;
+    --slate: #3c4858;
+    --steel: #273444;
+    --black: #1f2d3d;
+    --darkless: #252429;
+    --dark: #17171d;
+    --darker: #121217;
+    --darkest: #000000;
+    --lightest: #ffffff;
+}
+
+
+
+#thunder{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    width: 180px;
+    height: 424px;
+    z-index: 1;
+}
+
+#atom{
+    position: absolute;
+    top: -40px;
+    border-radius: 50%;
+    transition: all 0.05s ease;
+    left: 830px;
+    width: 200px;
+    height: 400px;
+    z-index: 2;
+}
+
+#arrow{
+    position: absolute;
+    top: 50px;
+    left: 850px;
+}
+
+#mousemove{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    z-index: 3;
+    transition: all 0.05s ease;
+}
+
+#spotifyContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4950px;
+    left: 300px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+#githubContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4950px;
+    left: 30px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+#instagramContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4950px;
+    left: 520px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+#snapchatContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 4950px;
+    left: 880px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+#youtubeContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5050px;
+    left: 200px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+#linkedinContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5050px;
+    left: 530px;
+    font-size: 2em;
+    color: var(--smoke);
+    background: var(--muted);
+    border-radius: 15px;
+    padding: 3px 7px;
+}
+
+.contactimg{
+    position: relative;
+    top: 3px;
+}

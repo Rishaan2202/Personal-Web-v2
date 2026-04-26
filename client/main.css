@@ -23,7 +23,7 @@
 *{
     margin: 0;
     padding: 0;
-    cursor: url(./cursor.svg), auto;
+    cursor: url(./SVGs/cursor.svg), auto;
 }
 
 body{
@@ -271,12 +271,4 @@ position: absolute;
     position: absolute;
     top: 4780px;
     left: -70px;
-}
-
-#github{
-    position: absolute;
-    top: 4950px;
-    left: 30px;
-    font-size: 2em;
-    color: var(--slate);
 }
