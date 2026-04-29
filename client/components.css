@@ -163,3 +163,17 @@
     position: relative;
     top: 3px;
 }
+
+.dropdown{
+    width: 100px;
+}
+
+#dropdown2{
+    position: absolute;
+    left: 1055px;
+}
+
+#dropdown3{
+    position: absolute;
+    left: 1055px;
+}

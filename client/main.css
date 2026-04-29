@@ -30,8 +30,8 @@ body{
     background: linear-gradient(180deg, var(--smoke), var(--darkless));
     font-family: "Public Sans", "Sans Serif";   
     background-repeat: no-repeat;
-    min-height: 850vh;
     overflow-x: hidden;
+    height: 850vh;
     display: flex;
     flex-direction: column;
 }
@@ -69,7 +69,7 @@ a{
 }
 
 #description{
-    position: relative;
+    position: absolute;
     font-style: bold;
     top: 360px;
     left: 30px;
@@ -275,7 +275,17 @@ position: absolute;
     left: -70px;
 }
 
-.webElement{
+#hardwareDesc{
     display: flex;
-    flex-direction: column;
+    gap: 780px;
+}
+
+#cadDesc{
+    display: flex;
+    gap: 780px;
+}
+
+#softwareDesc{
+    display: flex;
+    gap: 780px;
 }
