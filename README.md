@@ -1,7 +1,6 @@
 # Personal-Web-v2
 The is the version-2 of my personal website which tells about me a bit! I've made this on the Hack Club community.
 
-
 <h2>Demo Link</h2>
 <h4>https://rishaan2202.github.io/Personal-Web-v2/</h4>
 
