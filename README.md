@@ -1,5 +1,5 @@
 # Personal-Web-v2
-The is the version-2 of my personal website which tells about me a bit! I've made this on the Hack Club community. I've used HTML, CSS and JavaScript to make this website, and the backend that can be seen is just for learning purposes.
+<h3>The is the version-2 of my personal website which tells about me a bit! I've made this on the Hack Club community. I've used HTML, CSS and JavaScript to make this website, and the backend that can be seen is just for learning purposes.</h3>
 
 <h2>Demo Link</h2>
 <h4>https://rishaan2202.github.io/Personal-Web-v2/</h4>
