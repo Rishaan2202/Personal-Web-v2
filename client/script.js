@@ -61,15 +61,50 @@ softwareCard.addEventListener("click", () => {
 // Alignment Logic
 
 const contact = document.getElementById("contact");
-const contactDiv = document.getElementById("contactDiv");
-const contactImg = document.getElementById("contactImg");
+const contactDiv = document.getElementsByClassName("contactDiv");
+const contactImg = document.getElementsByClassName("contactImg");
 const contactHeading = document.getElementById("contactHeading");
 const contactbg = document.getElementById("contactbg");
 
-if (hardwareDropdownClose) {
-    contact.style.top = "4000px";
-    contactDiv.style.top = "4000px";
-    contactImg.style.top = "4000px";
-    contactHeading.style.top = "4000px";
-    contactbg.style.top = "4000px";
+if (!hardwareDropdownOpen) {
+    contact.style.top = "2500px";
+    contactDiv.style.top = "2500px";
+    contactImg.style.top = "2500px";
+    contactHeading.style.top = "2500px";
+    contactbg.style.top = "2500px";
+}
+
+// Navbar Functioning
+
+const navHome = document.getElementById("navHome");
+const navAbout = document.getElementById("navAbout");
+const navProjects = document.getElementById("navProjects");
+const navContact = document.getElementById("navContact");
+
+function homeScroll(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+function aboutScroll(){
+    window.scrollTo({
+        top: 500,
+        behavior: "smooth"
+    });
+}
+
+function projectsScroll(){
+    window.scrollTo({
+        top: 1620,
+        behavior: "smooth"
+    });
+}
+
+function contactScroll(){
+    window.scrollTo({
+        top: 5000,
+        behavior: "smooth"
+    });
 }

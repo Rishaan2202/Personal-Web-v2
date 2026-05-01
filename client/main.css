@@ -31,7 +31,7 @@ body{
     font-family: "Public Sans", "Sans Serif";   
     background-repeat: no-repeat;
     overflow-x: hidden;
-    height: 850vh;
+    height: 920vh;
     display: flex;
     flex-direction: column;
 }
@@ -185,11 +185,16 @@ a{
 }
 
 #hardwareCard{
+    display: block;
     background-color: var(--green);
 }
 
 #softwareCard{
+    display: block;
     background-color: var(--blue);
+}
+#cadCard{
+    display: block;
 }
 
 
@@ -257,8 +262,9 @@ a{
 /* Contact Section */
 
 #contactHeading{
-position: absolute;
-    top: 4770px;
+    display: block;
+    position: absolute;
+    top: 5180px;
     left: 30px;
     font-size: 3em;
     font-weight: 100;
@@ -270,8 +276,9 @@ position: absolute;
 }
 
 #contactbg{
+    display: block;
     position: absolute;
-    top: 4780px;
+    top: 5190px;
     left: -70px;
 }
 
@@ -288,4 +295,9 @@ position: absolute;
 #softwareDesc{
     display: flex;
     gap: 780px;
+}
+
+#elements{
+    display: flex;
+    flex-direction: column;
 }

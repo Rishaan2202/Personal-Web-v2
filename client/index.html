@@ -223,15 +223,16 @@
                         </defs>
                     </svg>
 
-                    <div id="spotifyHeading">
+                    <div id="facebookHeading">
                         <a href="https://open.spotify.com/user/31krpqut6sst7edua7bhx7cariku?si=4e7159cdb89e4a43"
-                            target="_blank">Spotify</a>
+                            target="_blank">Facebook</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+<div id="elements">
     <div class="webElement" id="home">
         <div id="name">
             <h1>Rishaan</h1>
@@ -242,10 +243,10 @@
     </div>
 
     <div id="navbar">
-        <a href="#home">Home</a>
-        <a href="#projects">About</a>
-        <a href="#contact">Projects</a>
-        <a href="#contact">Contact</a>
+        <a id="navHome" onclick="homeScroll()">Home</a>
+        <a id="navAbout" onclick="aboutScroll()">About</a>
+        <a id="navProjects" onclick="projectsScroll()">Projects</a>
+        <a id="navContact" onclick="contactScroll()">Contact</a>
     </div>
 
     <div class="webElement" id="about">
@@ -383,58 +384,93 @@
                 <div class="projectGrid">
 
                     <div class="cadProject">
-                        <h4><a href="#">3D Printed Carabiner</a></h4>
-                        <p>A 3D printed carabiner that can hold up to 100 kg of weight!</p>
+                        <h4><a href="https://www.printables.com/model/1523788-the-car">The Car</a></h4>
+                        <p>A Cartoon Styled Car made for fun</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">3D Printed Carabiner</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1519354-the-phone-holder">The Phone Holder</a></h4>
+                        <p>A rotatable working Phone holder</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">3D Printed Carabiner</a></h4>
-                        <p>A 3D printed carabiner that can hold up to 100 kg of weight!</p>
+                        <h4><a href="https://www.printables.com/model/1515286-rishaan-cool-logo">Rishaan Logo</a></h4>
+                        <p>My first ever 3D Model, ie my own Logo!</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1538388-the-rishaan-logo-v2">Rishaan Logo v2</a></h4>
+                        <p>The enhancement of my previous logo</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1541152-the-dragon">The Dragon</a></h4>
+                        <p>A poly looking 3D model of a dragon</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1543477-isro-lvm-3">ISRO LVM-3</a></h4>
+                        <p>3D Model of the ISRO LVM-3 Rocket</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1549548-the-stationary-organizer">Stationary Organizer</a></h4>
+                        <p>A model of a stationary organizer to keep my desk organized</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1556064-brahmos">Brahmos</a></h4>
+                        <p>A cool looking Model of the Brahmos Missile (India X Russia)</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1566625-hal-tejas">HAL Tejas</a></h4>
+                        <p>The best model I've ever made! HAL Tejas</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1578495-taj-mahal">Taj Mahal</a></h4>
+                        <p>A model of the Taj Mahal, one of the wonders of the world</p>
                     </div>
 
                     <div class="cadProject">
-                        <h4><a href="#">Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://www.printables.com/model/1585005-playing-with-gears">Playing With Gears</a></h4>
+                        <p>A fun simulation of gears, rotated by hands</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1607658-auto-rikshaw">Auto Rikshaw</a></h4>
+                        <p>A model of an Auto Rikshaw, the local transport in India</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1611712-speedy-gears">Speedy Gears</a></h4>
+                        <p>Gears used in a speed demonstration, looks cool</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1617306-stag-ninja-attack-tt-racquet">Ninja Attack TT Racquet</a></h4>
+                        <p>A very detailed model of Stag Ninja Attack TT racquet (I have one irl)</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1620625-orpheus">Orpheus Model</a></h4>
+                        <p>The mascot of Hack Club, which looks so cool</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1639039-car-launcher">The Car Launcher</a></h4>
+                        <p>A launcher which launches a car with the help of rubber bands</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1648508-jusstudy-merch">Jus'STUDY Merch</a></h4>
+                        <p>A few merchandise for the event which I'm organizing</p>
+                    </div>
+
+                    <div class="cadProject">
+                        <h4><a href="https://www.printables.com/model/1655497-daily-life-made-ez">Daily Life Made EZ</a></h4>
+                        <p>2 very useful 3D Printed tools, which make Day-to-Day life much easier</p>
                     </div>
 
                 </div>
@@ -460,23 +496,23 @@
                 <div class="projectGrid">
 
                     <div class="softwareProject">
-                        <h4><a href="#">Software Project 1</a></h4>
-                        <p>A 3D printed carabiner that can hold up to 100 kg of weight!</p>
+                        <h4><a href="https://rishaan2202.github.io/Build-Guild-Nagpur/">Build Guild Web</a></h4>
+                        <p>Website for an irl Hardware workshop event</p>
                     </div>
 
                     <div class="softwareProject">
-                        <h4><a href="#">Software Project 2</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://rishaan2202.github.io/Space-Web/">API Web</a></h4>
+                        <p>A website which shows random dog images, random jokes, and the current time</p>
                     </div>
 
                     <div class="softwareProject">
-                        <h4><a href="#">Software Project 3</a></h4>
-                        <p>A 3D printed carabiner that can hold up to 100 kg of weight!</p>
+                        <h4><a href="https://game.rishaan.dev">Clicker Game</a></h4>
+                        <p>A game kinda which increases money on clicking (fake money ofc!)</p>
                     </div>
 
                     <div class="softwareProject">
-                        <h4><a href="#">Software Project 4</a></h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        <h4><a href="https://rishaan2202.github.io/Personal-Web-v2/">Personal Web v2</a></h4>
+                        <p>LThe very website which you are using right now!</p>
                     </div>
 
                 </div>
@@ -492,11 +528,11 @@
         </div>
     </div>
 
-    </div>
-
-    <div id="mousemove">
+</div>
 
     </div>
+
+    <div id="mousemove"></div>
 
     <script src="script.js"></script>
 
